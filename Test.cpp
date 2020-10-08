@@ -19,15 +19,24 @@ int main(void) {
         cout << "Problem with operator+(CPoint)\n" << endl;
         return 1;
     }
+    else {
+        cout << "Autotest1 passed" << endl;
+    }
     k=Autotest2();
     if(k!=0){
         cout << "Problem with operator+(CDist)\n" << endl;
         return 1;
     }
+    else {
+        cout << "Autotest2 passed" << endl;
+    }
     k=Autotest3();
     if(k!=0){
         cout << "Problem with operator-(CPoint)\n" << endl;
         return 1;
+    }
+    else {
+        cout << "Autotest3 passed" << endl;
     }
 
     ifstream input("data.txt");
