@@ -28,7 +28,7 @@ int Autotest2(){
 int Autotest3(){
     CPoint A(2,1);
     CPoint B(1,2);
-    CPoint S=A-B;
+    CDist S=A-B;
     if (S.X()==1 && S.Y()==-1){
         return 0;
     }
